@@ -19,7 +19,7 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
 
-      - name: Set uo Gradle
+      - name: Set up Gradle
         uses: gradle/gradle-build-action@v3
 
       - name: Build Spring Boot App
